@@ -1,19 +1,25 @@
-# 基因变异频率的治疗组汇总热图
+# 基因变异频率热图
 
-![基因变异频率的治疗组汇总热图](20261106_clinical_frequency-heatmap_genes-by-treatment_Figure_4B_v01.png)
+![基因变异频率热图](gene_frequency_heatmap.png)
 
-[PNG 原件](20261106_clinical_frequency-heatmap_genes-by-treatment_Figure_4B_v01.png)
+[PNG 原件](gene_frequency_heatmap.png)
 
 ## 识别与来源
 
-- 原始文件名：`Figure_4B.png`。
+- 图形类型标识：`gene_frequency_heatmap`。
 - 主分类：`clinical/06_biomarkers`。
 - 图形类型：annotated gene alteration frequency heatmap by treatment group。
 - 检索关键词：frequency heatmap; gene alteration; percentages; annotated heatmap; BH adjustment; 基因频率; 分组热图; 百分比矩阵。
-- 来源：用户于 2026-11-06 上传，并明确要求收录至本仓库；图号沿用原文件名。论文引用、DOI、发表状态及原始代码未提供。
+- 来源：用户于 2026-11-06 上传，并明确要求收录至本仓库；原始文件名仅在来源清单中保留以便追溯。论文引用、DOI、发表状态及原始代码未提供。
 - 软件：原始绘图软件未知。仅有 PNG，不能确定原始软件或绘图包。
 - 许可状态：unknown；用户授权本次仓库归档，不代表已核实对外再使用许可。
 - 文件校验：参见 [本批原件清单](../../sources/20261106_clinical_upload_manifest.json)，收录时保持原文件字节不变。
+
+## 当前示例背景
+
+当前示例为基因×治疗组百分比矩阵，包含列分母与数值标注。
+
+图形类型可以复用于其他终点、分组或基因；请按当前数据重新定义分析变量。
 
 ## 图面确认的内容
 
@@ -37,13 +43,13 @@
 
 ## 限制与核对事项
 
-- 这是汇总频率热图，没有患者级列；与 Figure_4A 的 Oncoprint 属于不同粒度的展示。
+- 这是汇总频率热图，没有患者级列；与 基因变异谱 Oncoprint 的 Oncoprint 属于不同粒度的展示。
 - 原图缺少明确连续色标，不能仅靠不同色系的视觉深浅推断精确数值。
 - 只上传 PNG；没有同名 PDF。不能从 BH-adjusted P 的文字反推具体检验方法。
 - 本次仅归档视觉参考和说明，没有对原始研究数据重新分析；图片中的数值、样本量、统计结果和研究结论不可迁移到新任务。
 
 ## 关联示例
 
-[Figure_4A：伴随基因变异谱与临床注释 Oncoprint](../06_biomarkers/20261106_clinical_oncoprint_genomic-alterations_Figure_4A_v01.md)；[Figure_S4A：多基因变异与 PFS 关联的 Cox 森林图](../05_forest_plots_subgroup/20261106_clinical_cox-forest_gene-alteration-pfs_Figure_S4A_v01.md)。
+[基因变异谱 Oncoprint](../06_biomarkers/oncoprint.md)；[Cox 关联森林图](../05_forest_plots_subgroup/cox_association_forest.md)。
 
 [返回临床图形导航](../README.md)

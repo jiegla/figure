@@ -1,19 +1,25 @@
-# 按 PD-L1 三分组的 OS Kaplan–Meier 曲线
+# 三组 KM 生存曲线
 
-![按 PD-L1 三分组的 OS Kaplan–Meier 曲线](20261106_clinical_km-os_pdl1-three-strata_Figure_2A_v01.png)
+![三组 KM 生存曲线](km_three_group.png)
 
-[PDF 原件](20261106_clinical_km-os_pdl1-three-strata_Figure_2A_v01.pdf) · [PNG 原件](20261106_clinical_km-os_pdl1-three-strata_Figure_2A_v01.png)
+[PDF 原件](km_three_group.pdf) · [PNG 原件](km_three_group.png)
 
 ## 识别与来源
 
-- 原始文件名：`Figure_2A.pdf`、`Figure_2A.png`。
+- 图形类型标识：`km_three_group`。
 - 主分类：`clinical/03_survival_analysis`。
 - 图形类型：three-stratum biomarker Kaplan-Meier OS plot with risk table。
 - 检索关键词：Kaplan-Meier; KM; OS; PD-L1; biomarker stratification; log-rank; 三分组; 生物标志物; 总生存。
-- 来源：用户于 2026-11-06 上传，并明确要求收录至本仓库；图号沿用原文件名。论文引用、DOI、发表状态及原始代码未提供。
+- 来源：用户于 2026-11-06 上传，并明确要求收录至本仓库；原始文件名仅在来源清单中保留以便追溯。论文引用、DOI、发表状态及原始代码未提供。
 - 软件：原始绘图软件未知。PDF 元数据中的输出程序为 cairo 1.18.4；这不证明使用了某个具体 R/Python 包。
 - 许可状态：unknown；用户授权本次仓库归档，不代表已核实对外再使用许可。
 - 文件校验：参见 [本批原件清单](../../sources/20261106_clinical_upload_manifest.json)，收录时保持原文件字节不变。
+
+## 当前示例背景
+
+当前示例展示 PD-L1 三分层 OS，含置信带、删失标记和风险表。
+
+图形类型可以复用于其他终点、分组或基因；请按当前数据重新定义分析变量。
 
 ## 图面确认的内容
 
@@ -44,6 +50,6 @@
 
 ## 关联示例
 
-[Figure_1C：四治疗组 PFS Kaplan–Meier 生存曲线](../03_survival_analysis/20261106_clinical_km-pfs_four-treatment-groups_Figure_1C_v01.md)；[Figure_S6A：TP53 变异状态与 PFS 的双组 KM 曲线](../03_survival_analysis/20261106_clinical_km-pfs_tp53-alteration_Figure_S6A_v01.md)；[Figure_4A：伴随基因变异谱与临床注释 Oncoprint](../06_biomarkers/20261106_clinical_oncoprint_genomic-alterations_Figure_4A_v01.md)。
+[四组 KM 生存曲线](../03_survival_analysis/km_four_group.md)；[双组 KM 生存曲线（附 Cox HR）](../03_survival_analysis/km_two_group_cox.md)；[基因变异谱 Oncoprint](../06_biomarkers/oncoprint.md)。
 
 [返回临床图形导航](../README.md)

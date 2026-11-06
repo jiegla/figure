@@ -1,19 +1,25 @@
-# 多基因变异与 PFS 关联的 Cox 森林图
+# Cox 关联森林图
 
-![多基因变异与 PFS 关联的 Cox 森林图](20261106_clinical_cox-forest_gene-alteration-pfs_Figure_S4A_v01.png)
+![Cox 关联森林图](cox_association_forest.png)
 
-[PDF 原件](20261106_clinical_cox-forest_gene-alteration-pfs_Figure_S4A_v01.pdf) · [PNG 原件](20261106_clinical_cox-forest_gene-alteration-pfs_Figure_S4A_v01.png)
+[PDF 原件](cox_association_forest.pdf) · [PNG 原件](cox_association_forest.png)
 
 ## 识别与来源
 
-- 原始文件名：`Figure_S4A.pdf`、`Figure_S4A.png`。
+- 图形类型标识：`cox_association_forest`。
 - 主分类：`clinical/05_forest_plots_subgroup`。
 - 图形类型：gene-wise Cox association forest plot with HR confidence intervals and BH q values。
 - 检索关键词：forest plot; Cox regression; HR; log scale; BH; FDR; gene screening; n/events; 森林图; 基因关联; 多重检验。
-- 来源：用户于 2026-11-06 上传，并明确要求收录至本仓库；图号沿用原文件名。论文引用、DOI、发表状态及原始代码未提供。
+- 来源：用户于 2026-11-06 上传，并明确要求收录至本仓库；原始文件名仅在来源清单中保留以便追溯。论文引用、DOI、发表状态及原始代码未提供。
 - 软件：原始绘图软件未知。PDF 元数据中的输出程序为 cairo 1.18.4；这不证明使用了某个具体 R/Python 包。
 - 许可状态：unknown；用户授权本次仓库归档，不代表已核实对外再使用许可。
 - 文件校验：参见 [本批原件清单](../../sources/20261106_clinical_upload_manifest.json)，收录时保持原文件字节不变。
+
+## 当前示例背景
+
+当前示例展示逐基因 PFS 关联，包含人数/事件数、HR、95% CI、P 和 BH q。
+
+图形类型可以复用于其他终点、分组或基因；请按当前数据重新定义分析变量。
 
 ## 图面确认的内容
 
@@ -45,6 +51,6 @@
 
 ## 关联示例
 
-[Figure_S6A：TP53 变异状态与 PFS 的双组 KM 曲线](../03_survival_analysis/20261106_clinical_km-pfs_tp53-alteration_Figure_S6A_v01.md)；[Figure_4A：伴随基因变异谱与临床注释 Oncoprint](../06_biomarkers/20261106_clinical_oncoprint_genomic-alterations_Figure_4A_v01.md)；[Figure_4B：基因变异频率的治疗组汇总热图](../06_biomarkers/20261106_clinical_frequency-heatmap_genes-by-treatment_Figure_4B_v01.md)。
+[双组 KM 生存曲线（附 Cox HR）](../03_survival_analysis/km_two_group_cox.md)；[基因变异谱 Oncoprint](../06_biomarkers/oncoprint.md)；[基因变异频率热图](../06_biomarkers/gene_frequency_heatmap.md)。
 
 [返回临床图形导航](../README.md)

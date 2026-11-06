@@ -20,11 +20,12 @@
           226.55999755859375
         ]
       ],
-      "reference_id": "Figure_1A",
-      "repository_path": "clinical/04_treatment_response/20261106_clinical_orr-bar_four-treatment-groups_Figure_1A_v01.pdf",
-      "metadata_path": "clinical/04_treatment_response/20261106_clinical_orr-bar_four-treatment-groups_Figure_1A_v01.md",
+      "reference_id": "response_rate_bar",
+      "repository_path": "clinical/04_treatment_response/response_rate_bar.pdf",
+      "metadata_path": "clinical/04_treatment_response/response_rate_bar.md",
       "classification": "ORR bar chart with error bars and group denominators",
-      "added_date": "2026-11-06"
+      "added_date": "2026-11-06",
+      "figure_type_id": "response_rate_bar"
     },
     {
       "original_name": "Figure_1C.pdf",
@@ -40,22 +41,24 @@
           300.239990234375
         ]
       ],
-      "reference_id": "Figure_1C",
-      "repository_path": "clinical/03_survival_analysis/20261106_clinical_km-pfs_four-treatment-groups_Figure_1C_v01.pdf",
-      "metadata_path": "clinical/03_survival_analysis/20261106_clinical_km-pfs_four-treatment-groups_Figure_1C_v01.md",
+      "reference_id": "km_four_group",
+      "repository_path": "clinical/03_survival_analysis/km_four_group.pdf",
+      "metadata_path": "clinical/03_survival_analysis/km_four_group.md",
       "classification": "four-group Kaplan-Meier PFS plot with risk table",
-      "added_date": "2026-11-06"
+      "added_date": "2026-11-06",
+      "figure_type_id": "km_four_group"
     },
     {
       "original_name": "Figure_1C.png",
       "size_bytes": 103279,
       "sha256": "5c07a48d61032419475ea0cb71e27dd1f1601794d940fc126e1c5e53ef4d140e",
       "git_blob_sha": "8c175ce8ca094c77101845ccbd48439a7accc843",
-      "reference_id": "Figure_1C",
-      "repository_path": "clinical/03_survival_analysis/20261106_clinical_km-pfs_four-treatment-groups_Figure_1C_v01.png",
-      "metadata_path": "clinical/03_survival_analysis/20261106_clinical_km-pfs_four-treatment-groups_Figure_1C_v01.md",
+      "reference_id": "km_four_group",
+      "repository_path": "clinical/03_survival_analysis/km_four_group.png",
+      "metadata_path": "clinical/03_survival_analysis/km_four_group.md",
       "classification": "four-group Kaplan-Meier PFS plot with risk table",
-      "added_date": "2026-11-06"
+      "added_date": "2026-11-06",
+      "figure_type_id": "km_four_group"
     },
     {
       "original_name": "Figure_2A.pdf",
@@ -71,33 +74,36 @@
           283.44000244140625
         ]
       ],
-      "reference_id": "Figure_2A",
-      "repository_path": "clinical/03_survival_analysis/20261106_clinical_km-os_pdl1-three-strata_Figure_2A_v01.pdf",
-      "metadata_path": "clinical/03_survival_analysis/20261106_clinical_km-os_pdl1-three-strata_Figure_2A_v01.md",
+      "reference_id": "km_three_group",
+      "repository_path": "clinical/03_survival_analysis/km_three_group.pdf",
+      "metadata_path": "clinical/03_survival_analysis/km_three_group.md",
       "classification": "three-stratum biomarker Kaplan-Meier OS plot with risk table",
-      "added_date": "2026-11-06"
+      "added_date": "2026-11-06",
+      "figure_type_id": "km_three_group"
     },
     {
       "original_name": "Figure_2A.png",
       "size_bytes": 95113,
       "sha256": "9fede881aa5de113b58e12449b613af89938f7c6a5f83a0a7a31abd419c47131",
       "git_blob_sha": "a2e27c0579f0d07a641037d15ddffcd6e40cc216",
-      "reference_id": "Figure_2A",
-      "repository_path": "clinical/03_survival_analysis/20261106_clinical_km-os_pdl1-three-strata_Figure_2A_v01.png",
-      "metadata_path": "clinical/03_survival_analysis/20261106_clinical_km-os_pdl1-three-strata_Figure_2A_v01.md",
+      "reference_id": "km_three_group",
+      "repository_path": "clinical/03_survival_analysis/km_three_group.png",
+      "metadata_path": "clinical/03_survival_analysis/km_three_group.md",
       "classification": "three-stratum biomarker Kaplan-Meier OS plot with risk table",
-      "added_date": "2026-11-06"
+      "added_date": "2026-11-06",
+      "figure_type_id": "km_three_group"
     },
     {
       "original_name": "Figure_S6A.png",
       "size_bytes": 93024,
       "sha256": "fefd594572ea87fa3cc25b39b60764940c5f41f6eca11333647a913bbacdfeca",
       "git_blob_sha": "45e3ecdbf9ce112dfdf93a8441727f8cf26cbf35",
-      "reference_id": "Figure_S6A",
-      "repository_path": "clinical/03_survival_analysis/20261106_clinical_km-pfs_tp53-alteration_Figure_S6A_v01.png",
-      "metadata_path": "clinical/03_survival_analysis/20261106_clinical_km-pfs_tp53-alteration_Figure_S6A_v01.md",
+      "reference_id": "km_two_group_cox",
+      "repository_path": "clinical/03_survival_analysis/km_two_group_cox.png",
+      "metadata_path": "clinical/03_survival_analysis/km_two_group_cox.md",
       "classification": "two-group biomarker Kaplan-Meier PFS plot with Cox HR annotation",
-      "added_date": "2026-11-06"
+      "added_date": "2026-11-06",
+      "figure_type_id": "km_two_group_cox"
     },
     {
       "original_name": "Figure_S4A.pdf",
@@ -113,22 +119,24 @@
           269.2799987792969
         ]
       ],
-      "reference_id": "Figure_S4A",
-      "repository_path": "clinical/05_forest_plots_subgroup/20261106_clinical_cox-forest_gene-alteration-pfs_Figure_S4A_v01.pdf",
-      "metadata_path": "clinical/05_forest_plots_subgroup/20261106_clinical_cox-forest_gene-alteration-pfs_Figure_S4A_v01.md",
+      "reference_id": "cox_association_forest",
+      "repository_path": "clinical/05_forest_plots_subgroup/cox_association_forest.pdf",
+      "metadata_path": "clinical/05_forest_plots_subgroup/cox_association_forest.md",
       "classification": "gene-wise Cox association forest plot with HR confidence intervals and BH q values",
-      "added_date": "2026-11-06"
+      "added_date": "2026-11-06",
+      "figure_type_id": "cox_association_forest"
     },
     {
       "original_name": "Figure_S4A.png",
       "size_bytes": 171170,
       "sha256": "38d903f2eb53acd98f4af8bc1326ce787fcac93a41145c516adae23d86d000c3",
       "git_blob_sha": "5a1c29f190f1db517067b848ca2951a17bc35396",
-      "reference_id": "Figure_S4A",
-      "repository_path": "clinical/05_forest_plots_subgroup/20261106_clinical_cox-forest_gene-alteration-pfs_Figure_S4A_v01.png",
-      "metadata_path": "clinical/05_forest_plots_subgroup/20261106_clinical_cox-forest_gene-alteration-pfs_Figure_S4A_v01.md",
+      "reference_id": "cox_association_forest",
+      "repository_path": "clinical/05_forest_plots_subgroup/cox_association_forest.png",
+      "metadata_path": "clinical/05_forest_plots_subgroup/cox_association_forest.md",
       "classification": "gene-wise Cox association forest plot with HR confidence intervals and BH q values",
-      "added_date": "2026-11-06"
+      "added_date": "2026-11-06",
+      "figure_type_id": "cox_association_forest"
     },
     {
       "original_name": "Figure_4A.pdf",
@@ -144,33 +152,38 @@
           269.2799987792969
         ]
       ],
-      "reference_id": "Figure_4A",
-      "repository_path": "clinical/06_biomarkers/20261106_clinical_oncoprint_genomic-alterations_Figure_4A_v01.pdf",
-      "metadata_path": "clinical/06_biomarkers/20261106_clinical_oncoprint_genomic-alterations_Figure_4A_v01.md",
+      "reference_id": "oncoprint",
+      "repository_path": "clinical/06_biomarkers/oncoprint.pdf",
+      "metadata_path": "clinical/06_biomarkers/oncoprint.md",
       "classification": "oncoprint genomic alteration matrix with clinical annotation tracks",
-      "added_date": "2026-11-06"
+      "added_date": "2026-11-06",
+      "figure_type_id": "oncoprint"
     },
     {
       "original_name": "Figure_4A.png",
       "size_bytes": 128827,
       "sha256": "7fe0357a4b1de5a12e4a825278f845da39b64bf78559f24e669daafa4af69c8f",
       "git_blob_sha": "1d2b98efe4f71e29fe55ce1e50ee633a67df6942",
-      "reference_id": "Figure_4A",
-      "repository_path": "clinical/06_biomarkers/20261106_clinical_oncoprint_genomic-alterations_Figure_4A_v01.png",
-      "metadata_path": "clinical/06_biomarkers/20261106_clinical_oncoprint_genomic-alterations_Figure_4A_v01.md",
+      "reference_id": "oncoprint",
+      "repository_path": "clinical/06_biomarkers/oncoprint.png",
+      "metadata_path": "clinical/06_biomarkers/oncoprint.md",
       "classification": "oncoprint genomic alteration matrix with clinical annotation tracks",
-      "added_date": "2026-11-06"
+      "added_date": "2026-11-06",
+      "figure_type_id": "oncoprint"
     },
     {
       "original_name": "Figure_4B.png",
       "size_bytes": 124105,
       "sha256": "d45f30b0ff5ccd3842708a856683e48a92dfaf1648bc056bcc0af60ba4ad515a",
       "git_blob_sha": "59c5a2459c99e8123f716c55d0b57abfb39288f3",
-      "reference_id": "Figure_4B",
-      "repository_path": "clinical/06_biomarkers/20261106_clinical_frequency-heatmap_genes-by-treatment_Figure_4B_v01.png",
-      "metadata_path": "clinical/06_biomarkers/20261106_clinical_frequency-heatmap_genes-by-treatment_Figure_4B_v01.md",
+      "reference_id": "gene_frequency_heatmap",
+      "repository_path": "clinical/06_biomarkers/gene_frequency_heatmap.png",
+      "metadata_path": "clinical/06_biomarkers/gene_frequency_heatmap.md",
       "classification": "annotated gene alteration frequency heatmap by treatment group",
-      "added_date": "2026-11-06"
+      "added_date": "2026-11-06",
+      "figure_type_id": "gene_frequency_heatmap"
     }
-  ]
+  ],
+  "naming_convention": "one canonical example per chart type or structural subtype; lowercase snake_case; paired formats share one type ID",
+  "renamed_date": "2026-11-06"
 }

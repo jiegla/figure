@@ -1,19 +1,25 @@
-# 伴随基因变异谱与临床注释 Oncoprint
+# 基因变异谱 Oncoprint
 
-![伴随基因变异谱与临床注释 Oncoprint](20261106_clinical_oncoprint_genomic-alterations_Figure_4A_v01.png)
+![基因变异谱 Oncoprint](oncoprint.png)
 
-[PDF 原件](20261106_clinical_oncoprint_genomic-alterations_Figure_4A_v01.pdf) · [PNG 原件](20261106_clinical_oncoprint_genomic-alterations_Figure_4A_v01.png)
+[PDF 原件](oncoprint.pdf) · [PNG 原件](oncoprint.png)
 
 ## 识别与来源
 
-- 原始文件名：`Figure_4A.pdf`、`Figure_4A.png`。
+- 图形类型标识：`oncoprint`。
 - 主分类：`clinical/06_biomarkers`。
 - 图形类型：oncoprint genomic alteration matrix with clinical annotation tracks。
 - 检索关键词：oncoprint; oncoplot; genomic alterations; mutation landscape; clinical annotation; EGFR; 基因变异谱; 突变瀑布图; 临床注释。
-- 来源：用户于 2026-11-06 上传，并明确要求收录至本仓库；图号沿用原文件名。论文引用、DOI、发表状态及原始代码未提供。
+- 来源：用户于 2026-11-06 上传，并明确要求收录至本仓库；原始文件名仅在来源清单中保留以便追溯。论文引用、DOI、发表状态及原始代码未提供。
 - 软件：原始绘图软件未知。PDF 元数据中的输出程序为 cairo 1.18.4；这不证明使用了某个具体 R/Python 包。
 - 许可状态：unknown；用户授权本次仓库归档，不代表已核实对外再使用许可。
 - 文件校验：参见 [本批原件清单](../../sources/20261106_clinical_upload_manifest.json)，收录时保持原文件字节不变。
+
+## 当前示例背景
+
+当前示例含治疗分块、临床注释与变异类型图例。
+
+图形类型可以复用于其他终点、分组或基因；请按当前数据重新定义分析变量。
 
 ## 图面确认的内容
 
@@ -44,6 +50,6 @@
 
 ## 关联示例
 
-[Figure_4B：基因变异频率的治疗组汇总热图](../06_biomarkers/20261106_clinical_frequency-heatmap_genes-by-treatment_Figure_4B_v01.md)；[Figure_S4A：多基因变异与 PFS 关联的 Cox 森林图](../05_forest_plots_subgroup/20261106_clinical_cox-forest_gene-alteration-pfs_Figure_S4A_v01.md)；[Figure_2A：按 PD-L1 三分组的 OS Kaplan–Meier 曲线](../03_survival_analysis/20261106_clinical_km-os_pdl1-three-strata_Figure_2A_v01.md)；[Figure_S6A：TP53 变异状态与 PFS 的双组 KM 曲线](../03_survival_analysis/20261106_clinical_km-pfs_tp53-alteration_Figure_S6A_v01.md)。
+[基因变异频率热图](../06_biomarkers/gene_frequency_heatmap.md)；[Cox 关联森林图](../05_forest_plots_subgroup/cox_association_forest.md)；[三组 KM 生存曲线](../03_survival_analysis/km_three_group.md)；[双组 KM 生存曲线（附 Cox HR）](../03_survival_analysis/km_two_group_cox.md)。
 
 [返回临床图形导航](../README.md)

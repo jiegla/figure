@@ -11,6 +11,12 @@ Use this repository as a visual and methodological reference for clinical resear
 5. If no relevant example exists, say so and apply established scientific visualization principles.
 6. In the final response, briefly identify the reference(s) used when useful.
 
+## Type-based naming and selection
+
+- Name reference assets by chart type and essential structure, using lowercase snake_case (for example, `km_four_group` or `oncoprint`). Avoid paper figure/panel labels, upload dates, and study-specific gene names in canonical filenames.
+- Keep one canonical example per type or meaningful structural subtype. Paired PDF/PNG formats and the matching Markdown note are one example. Different endpoints, gene names, or paper panel labels alone do not create a new type.
+- Select and describe references by type, not by the source paper's figure number. Preserve original upload names only for provenance, and keep paths, source indexes, and cross-links synchronized after renaming.
+
 ## Clinical reference routing
 
 - For clinical figures, read `clinical/README.md` and the selected example's adjacent Markdown note before analysis or plotting.

@@ -1,0 +1,48 @@
+# 四治疗组客观缓解率（ORR）柱状图
+
+原图仅提供 PDF：[打开 Figure_1A.pdf](20261106_clinical_orr-bar_four-treatment-groups_Figure_1A_v01.pdf)。
+
+[PDF 原件](20261106_clinical_orr-bar_four-treatment-groups_Figure_1A_v01.pdf)
+
+## 识别与来源
+
+- 原始文件名：`Figure_1A.pdf`。
+- 主分类：`clinical/04_treatment_response`。
+- 图形类型：ORR bar chart with error bars and group denominators。
+- 检索关键词：ORR; objective response rate; response proportions; bar chart; error bars; chi-square; 客观缓解率; 柱状图; 疗效比较。
+- 来源：用户于 2026-11-06 上传，并明确要求收录至本仓库；图号沿用原文件名。论文引用、DOI、发表状态及原始代码未提供。
+- 软件：原始绘图软件未知。PDF 元数据中的输出程序为 cairo 1.18.4；这不证明使用了某个具体 R/Python 包。
+- 许可状态：unknown；用户授权本次仓库归档，不代表已核实对外再使用许可。
+- 文件校验：参见 [本批原件清单](../../sources/20261106_clinical_upload_manifest.json)，收录时保持原文件字节不变。
+
+## 图面确认的内容
+
+- 四个治疗组并列柱形，纵轴 ORR（%）范围为 0–100；组别以橙、蓝、绿、灰区分，柱上显示百分比，柱下显示各组 n。
+- 黑色带帽误差线和总体 Chi-square P 标注；图片没有定义误差线的置信水平与计算方法。
+- 图面可见 ORR 分母为 117、77、37、46；这是该示例的分析集，不是未来任务的默认样本量。
+
+## 复用时需要的当前项目数据
+
+- 患者/分析单位标识、治疗组、是否可评估、最佳疗效或已确认的应答标志。
+- 如采用 CR + PR 定义 ORR，需由当前方案确认疗效标准、评估时间和分母规则；也可提供每组应答人数及可评估人数。
+
+## 给 Codex 的分析与绘图要点
+
+以下为未来任务的工作要点，不是对原图未提供方法的推断。
+
+1. 按当前方案确定各组应答人数和分母后计算比例，记录缺失或不可评估者的处理方式。
+2. 按当前统计分析方案选择并记录比例区间方法；不能从图片推断误差线是 95% CI、标准误或其他区间。
+3. 根据实际列联表及适用条件确定总体检验；如果做两两比较，应另行预设比较与多重检验处理。
+4. 绘制从 0 开始的百分比柱图，标注比例、分母、误差线含义及已计算的总体 P 值。
+
+## 限制与核对事项
+
+- 本图只有 PDF 原件；未上传 PNG。
+- 同批 Figure_1C 的 Ivo + CT 风险表起始人数为 119，与本图 ORR 分母 117 不同；图面不足以解释原因，不应为追求一致而改动分析集。
+- 本次仅归档视觉参考和说明，没有对原始研究数据重新分析；图片中的数值、样本量、统计结果和研究结论不可迁移到新任务。
+
+## 关联示例
+
+[Figure_1C：四治疗组 PFS Kaplan–Meier 生存曲线](../03_survival_analysis/20261106_clinical_km-pfs_four-treatment-groups_Figure_1C_v01.md)。
+
+[返回临床图形导航](../README.md)

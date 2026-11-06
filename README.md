@@ -22,6 +22,8 @@ AGENTS.md       Codex 使用本仓库的工作规则
 
 每个子目录使用编号前缀，便于排序和稳定检索。具体分类见目录名。
 
+临床图形的分类入口、原图预览及分析要点见 [clinical/README.md](clinical/README.md)。目前覆盖 KM 生存曲线、ORR 柱状图、Cox 森林图、Oncoprint 和基因频率热图。
+
 ## Codex 使用流程
 
 1. 先阅读本文件和根目录 `AGENTS.md`。

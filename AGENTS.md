@@ -11,6 +11,14 @@ Use this repository as a visual and methodological reference for clinical resear
 5. If no relevant example exists, say so and apply established scientific visualization principles.
 6. In the final response, briefly identify the reference(s) used when useful.
 
+## Clinical reference routing
+
+- For clinical figures, read `clinical/README.md` and the selected example's adjacent Markdown note before analysis or plotting.
+- Route by chart structure: Kaplan-Meier curves to `clinical/03_survival_analysis`; response-rate bars to `clinical/04_treatment_response`; Cox association forests to `clinical/05_forest_plots_subgroup`; oncoprints and gene-frequency heatmaps to `clinical/06_biomarkers`.
+- Biomarker-stratified survival examples are cross-linked from the biomarkers directory; paired PDF/PNG files are one reference, not separate analyses.
+- Distinguish visible annotations from unknown source methods. Confirm current-project endpoints, analysis populations, denominators, assay coverage, missingness, model covariates, and multiple-testing families. Do not infer adjustment or interaction testing from the appearance of a forest plot.
+- Reference notes are methodological prompts, not executable analysis code or a substitute for current-project data.
+
 ## Scientific integrity
 
 - Use only the current project's data and validated analysis results. Never invent or copy results from a reference image.
